@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		7162B3732DA0399800F6B863 /* FirsJsonParcing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirsJsonParcing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7162B3732DA0399800F6B863 /* FirstJsonParcing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstJsonParcing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7162B3852DA0399A00F6B863 /* Exceptions for "FirsJsonParcing" folder in "FirsJsonParcing" target */ = {
+		7162B3852DA0399A00F6B863 /* Exceptions for "FirstJsonParcing" folder in "FirstJsonParcing" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				App/Info.plist,
 			);
-			target = 7162B3722DA0399800F6B863 /* FirsJsonParcing */;
+			target = 7162B3722DA0399800F6B863 /* FirstJsonParcing */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7162B3752DA0399800F6B863 /* FirsJsonParcing */ = {
+		7162B3752DA0399800F6B863 /* FirstJsonParcing */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7162B3852DA0399A00F6B863 /* Exceptions for "FirsJsonParcing" folder in "FirsJsonParcing" target */,
+				7162B3852DA0399A00F6B863 /* Exceptions for "FirstJsonParcing" folder in "FirstJsonParcing" target */,
 			);
-			path = FirsJsonParcing;
+			path = FirstJsonParcing;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		7162B36A2DA0399800F6B863 = {
 			isa = PBXGroup;
 			children = (
-				7162B3752DA0399800F6B863 /* FirsJsonParcing */,
+				7162B3752DA0399800F6B863 /* FirstJsonParcing */,
 				7162B3742DA0399800F6B863 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		7162B3742DA0399800F6B863 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7162B3732DA0399800F6B863 /* FirsJsonParcing.app */,
+				7162B3732DA0399800F6B863 /* FirstJsonParcing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7162B3722DA0399800F6B863 /* FirsJsonParcing */ = {
+		7162B3722DA0399800F6B863 /* FirstJsonParcing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7162B3862DA0399A00F6B863 /* Build configuration list for PBXNativeTarget "FirsJsonParcing" */;
+			buildConfigurationList = 7162B3862DA0399A00F6B863 /* Build configuration list for PBXNativeTarget "FirstJsonParcing" */;
 			buildPhases = (
 				7162B36F2DA0399800F6B863 /* Sources */,
 				7162B3702DA0399800F6B863 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7162B3752DA0399800F6B863 /* FirsJsonParcing */,
+				7162B3752DA0399800F6B863 /* FirstJsonParcing */,
 			);
-			name = FirsJsonParcing;
+			name = FirstJsonParcing;
 			packageProductDependencies = (
 			);
 			productName = FirsJsonParcing;
-			productReference = 7162B3732DA0399800F6B863 /* FirsJsonParcing.app */;
+			productReference = 7162B3732DA0399800F6B863 /* FirstJsonParcing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7162B36E2DA0399800F6B863 /* Build configuration list for PBXProject "FirsJsonParcing" */;
+			buildConfigurationList = 7162B36E2DA0399800F6B863 /* Build configuration list for PBXProject "FirstJsonParcing" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7162B3722DA0399800F6B863 /* FirsJsonParcing */,
+				7162B3722DA0399800F6B863 /* FirstJsonParcing */,
 			);
 		};
 /* End PBXProject section */
@@ -147,22 +147,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AGA8RP62LQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FirsJsonParcing/Info.plist;
+				INFOPLIST_FILE = FirstJsonParcing/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.rddevelopment.FirsJsonParcing;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rddevelopment.FirstJsonParcing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -175,22 +180,27 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AGA8RP62LQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FirsJsonParcing/Info.plist;
+				INFOPLIST_FILE = FirstJsonParcing/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.rddevelopment.FirsJsonParcing;
+				PRODUCT_BUNDLE_IDENTIFIER = org.rddevelopment.FirstJsonParcing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -316,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7162B36E2DA0399800F6B863 /* Build configuration list for PBXProject "FirsJsonParcing" */ = {
+		7162B36E2DA0399800F6B863 /* Build configuration list for PBXProject "FirstJsonParcing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7162B3892DA0399A00F6B863 /* Debug */,
@@ -325,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7162B3862DA0399A00F6B863 /* Build configuration list for PBXNativeTarget "FirsJsonParcing" */ = {
+		7162B3862DA0399A00F6B863 /* Build configuration list for PBXNativeTarget "FirstJsonParcing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7162B3872DA0399A00F6B863 /* Debug */,
