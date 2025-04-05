@@ -29,14 +29,16 @@ class MainViewController: UICollectionViewController {
             guard let self else { return }
             guard let data = data else {
                 print(error?.localizedDescription ?? "No Error Description")
+                
                 return
             }
-            
+          
             do {
                 let decodedCountries = try JSONDecoder().decode(Response.self, from: data)
                 DispatchQueue.main.async {
                     self.countries = decodedCountries.response
                     self.collectionView.reloadData()
+                    print(self.countries)
                 }
             } catch {
                 print(error.localizedDescription)
@@ -50,7 +52,7 @@ class MainViewController: UICollectionViewController {
 // MARK: - ICollectionViewDataSource
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print(countries.count)
+        
         return countries.count
         
     }
